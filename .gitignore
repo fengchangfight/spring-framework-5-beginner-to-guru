@@ -55,3 +55,9 @@ Thumbs.db
 
 # Folder config file
 Desktop.ini
+
+
+######################
+# Gradle Wrapper
+######################
+!gradle/wrapper/gradle-wrapper.jar
