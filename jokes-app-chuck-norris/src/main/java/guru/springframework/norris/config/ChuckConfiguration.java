@@ -1,0 +1,11 @@
+package guru.springframework.norris.config;
+
+import guru.springframework.norris.chuck.ChuckNorrisQuotes;
+
+//@configuration
+public class ChuckConfiguration {
+    //@Bean
+    public ChuckNorrisQuotes chuckNorrisQuotes() {
+        return new ChuckNorrisQuotes();
+    }
+}
