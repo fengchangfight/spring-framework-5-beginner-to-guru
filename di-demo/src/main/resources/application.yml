@@ -3,3 +3,11 @@ guru:
     username: JMS Username
     password: somepass
     url: SomeUrl
+
+
+--- #File separator in YAML Ain't Markup Language
+spring:
+    profiles: de
+guru:
+  jms:
+    username: JMS Username IN GERMAN
